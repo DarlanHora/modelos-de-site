@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Helena Costa | Nutricionista (site modelo)</title>
+<meta name="description" content="Site modelo para nutricionista desenvolvido por Darlan Hora.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--primary:#1E4636;--accent:#E8875B;}
+*{box-sizing:border-box}
+body{margin:0;background:#F7F8F3}
+a{color:#1E4636}a:hover{color:#0F2A1F}
+html{scroll-behavior:smooth}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+.faq-chev{transition:transform .2s ease}
+details[open] .faq-chev{transform:rotate(180deg)}
+</style>
+</head>
+<body>
+<div style="font-family: Inter, system-ui, sans-serif; color: #1A2B22; background: #F7F8F3; width: 100%; overflow-x: hidden;">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 22px clamp(20px, 4vw, 48px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; box-sizing: border-box;">
+<a href="#inicio" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--primary);">
+<span style="width: 44px; height: 44px; border-radius: 50%; background: var(--primary); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z"></path><path d="M2 21c0-3 1.9-5.4 5.1-6"></path></svg></span>
+<span style="display: flex; flex-direction: column; line-height: 1.15;">
+<span style="font-family: Outfit, sans-serif; font-size: 22px; font-weight: 600;">Helena Costa</span>
+<span style="font-size: 13px; color: #4F5D55;">Nutricionista · CRN-5 00000</span>
+</span>
+</a>
+<nav style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px;">
+<a href="#atendimentos" style="color: #33433A; text-decoration: none; font-size: 15px; font-weight: 500;">Atendimentos</a>
+<a href="#como-funciona" style="color: #33433A; text-decoration: none; font-size: 15px; font-weight: 500;">Como funciona</a>
+<a href="#sobre" style="color: #33433A; text-decoration: none; font-size: 15px; font-weight: 500;">Sobre</a>
+<a href="#duvidas" style="color: #33433A; text-decoration: none; font-size: 15px; font-weight: 500;">Dúvidas</a>
+<a href="#contato" style="display: inline-flex; align-items: center; min-height: 44px; box-sizing: border-box; padding: 12px 22px; border-radius: 999px; background: var(--primary); color: #FFFFFF; font-weight: 600; font-size: 15px; text-decoration: none;">Agendar consulta</a>
+</nav>
+</header>
+
+<section id="inicio" style="max-width: 1240px; margin: 0 auto; padding: clamp(32px, 5vw, 64px) clamp(20px, 4vw, 48px) clamp(56px, 7vw, 96px); display: flex; flex-wrap: wrap; align-items: center; gap: 56px; box-sizing: border-box;">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 26px;">
+<span style="align-self: flex-start; padding: 8px 16px; border-radius: 999px; background: #E3EFE6; color: var(--primary); font-size: 14px; font-weight: 600;">Atendimento presencial em Salvador e online para todo o Brasil</span>
+<h1 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(44px, 6vw, 80px); line-height: 1.04; letter-spacing: -1.5px; color: var(--primary);">Comer bem pode ser <span style="color: var(--accent);">simples</span> e gostoso.</h1>
+<p style="margin: 0; max-width: 540px; font-size: 19px; line-height: 1.65; color: #4F5D55;">Plano alimentar feito pra sua rotina, seus gostos e seus objetivos. Sem dieta da moda, sem cortar tudo o que você gosta e com acompanhamento de verdade.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px;">
+<a href="#contato" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; box-sizing: border-box; padding: 16px 28px; border-radius: 999px; background: var(--primary); color: #FFFFFF; font-weight: 600; font-size: 17px; text-decoration: none;">Agendar minha consulta<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></a>
+<a href="#atendimentos" style="display: inline-flex; align-items: center; min-height: 56px; box-sizing: border-box; padding: 16px 28px; border-radius: 999px; border: 1.5px solid #B9CCBF; color: var(--primary); font-weight: 600; font-size: 17px; text-decoration: none;">Conhecer atendimentos</a>
+</div>
+</div>
+<div style="flex: 1 1 420px; min-width: 0; position: relative; padding: 24px 0;">
+<div style="aspect-ratio: 1 / 1.08; border-radius: 240px 240px 36px 36px; background: #E3EFE6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; color: #4F5D55; font-size: 15px;">
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<span>Foto da profissional</span>
+</div>
+<div style="position: absolute; left: 0; bottom: 56px; background: #FFFFFF; border-radius: 20px; padding: 16px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 12px 32px rgba(30, 70, 54, 0.12);">
+<span style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: #1A2B22; display: flex; align-items: center; justify-content: center;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="2"></rect><path d="M8 22h8M12 18v4"></path></svg></span>
+<span style="display: flex; flex-direction: column;"><span style="font-weight: 600; font-size: 15px;">Consulta online</span><span style="font-size: 13px; color: #4F5D55;">De qualquer lugar do país</span></span>
+</div>
+<div style="position: absolute; right: 0; top: 40px; background: #FFFFFF; border-radius: 20px; padding: 16px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 12px 32px rgba(30, 70, 54, 0.12);">
+<span style="width: 40px; height: 40px; border-radius: 50%; background: var(--primary); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span>
+<span style="display: flex; flex-direction: column;"><span style="font-weight: 600; font-size: 15px;">Cardápio flexível</span><span style="font-size: 13px; color: #4F5D55;">Com receitas e lista de compras</span></span>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 48px) clamp(64px, 7vw, 104px); display: flex; flex-direction: column; align-items: center; gap: 20px; box-sizing: border-box;">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #4F5D55;">Áreas de atuação</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Emagrecimento</span>
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Reeducação alimentar</span>
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Nutrição esportiva</span>
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Saúde da mulher</span>
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Intolerâncias alimentares</span>
+<span style="padding: 12px 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE6DF; font-size: 15px; font-weight: 500;">Alimentação vegetariana</span>
+</div>
+</section>
+
+<section id="atendimentos" style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 48px) clamp(64px, 8vw, 112px); display: flex; flex-direction: column; gap: 44px; box-sizing: border-box;">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 640px;">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; letter-spacing: -1px; color: var(--primary);">Atendimentos</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4F5D55;">Escolha o formato que encaixa melhor na sua vida. Em todos você sai com um plano feito só pra você.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 18px;">
+<span style="width: 56px; height: 56px; border-radius: 18px; background: #E3EFE6; color: var(--primary); display: flex; align-items: center; justify-content: center;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px; font-weight: 600;">Consulta presencial</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4F5D55;">Avaliação completa no consultório, com medidas corporais, análise de exames e conversa sobre sua rotina.</p>
+<p style="margin: auto 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600; color: var(--primary);">R$ XXX</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; background: var(--primary); color: #FFFFFF; border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 18px;">
+<span style="width: 56px; height: 56px; border-radius: 18px; background: var(--accent); color: #1A2B22; display: flex; align-items: center; justify-content: center;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="2"></rect><path d="M8 22h8M12 18v4"></path></svg></span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px; font-weight: 600;">Consulta online</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #DCE8E0;">Mesmo cuidado da consulta presencial, por videochamada. Ideal pra quem tem agenda apertada ou mora longe.</p>
+<p style="margin: auto 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600;">R$ XXX</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 18px;">
+<span style="width: 56px; height: 56px; border-radius: 18px; background: #E3EFE6; color: var(--primary); display: flex; align-items: center; justify-content: center;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path><path d="m9 16 2 2 4-4"></path></svg></span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px; font-weight: 600;">Acompanhamento mensal</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4F5D55;">Consulta inicial, retornos e suporte pelo WhatsApp durante o mês pra ajustar o plano sempre que precisar.</p>
+<p style="margin: auto 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600; color: var(--primary);">R$ XXX/mês</p>
+</div>
+</div>
+</section>
+
+<section id="como-funciona" style="background: var(--primary); color: #FFFFFF;">
+<div style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) clamp(20px, 4vw, 48px); display: flex; flex-direction: column; gap: 48px; box-sizing: border-box;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px;">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; letter-spacing: -1px;">Como funciona</h2>
+<p style="margin: 0; max-width: 440px; font-size: 17px; line-height: 1.6; color: #DCE8E0;">Do primeiro contato ao resultado, você sabe exatamente o que vai acontecer.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--accent); color: #1A2B22; font-family: Outfit, sans-serif; font-weight: 700; font-size: 20px; display: flex; align-items: center; justify-content: center;">1</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; font-weight: 600;">Primeira consulta</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #DCE8E0;">Conversamos sobre sua história, rotina, preferências e exames. É aqui que eu entendo o que funciona pra você.</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--accent); color: #1A2B22; font-family: Outfit, sans-serif; font-weight: 700; font-size: 20px; display: flex; align-items: center; justify-content: center;">2</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; font-weight: 600;">Seu plano alimentar</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #DCE8E0;">Você recebe um cardápio flexível, com opções de substituição, receitas práticas e lista de compras.</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--accent); color: #1A2B22; font-family: Outfit, sans-serif; font-weight: 700; font-size: 20px; display: flex; align-items: center; justify-content: center;">3</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; font-weight: 600;">Retornos e ajustes</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #DCE8E0;">Nos retornos avaliamos sua evolução e ajustamos o plano pra que ele continue fazendo sentido.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="sobre" style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) clamp(20px, 4vw, 48px); display: flex; flex-wrap: wrap; align-items: center; gap: 56px; box-sizing: border-box;">
+<div style="flex: 1 1 380px; min-width: 0; aspect-ratio: 1 / 1; border-radius: 36px; background: #E3EFE6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; color: #4F5D55; font-size: 15px;">
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"></path></svg>
+<span>Foto no consultório</span>
+</div>
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 22px;">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #4F5D55;">Sobre mim</p>
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; letter-spacing: -1px; color: var(--primary);">Oi, eu sou a Helena.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #4F5D55;">Sou nutricionista e acredito que a melhor dieta é aquela que você consegue manter. Meu trabalho é traduzir a ciência da nutrição em escolhas práticas, que caibam no seu dia a dia e na sua mesa.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #4F5D55;">Cada pessoa chega com uma história diferente com a comida. Por isso, nada de cardápio pronto: o plano nasce da nossa conversa.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 16px;">
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="M20 6 9 17l-5-5"></path></svg>Graduada em Nutrição</li>
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="M20 6 9 17l-5-5"></path></svg>Pós-graduação em Nutrição Clínica Funcional</li>
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="M20 6 9 17l-5-5"></path></svg>Registro profissional CRN-5 00000</li>
+</ul>
+</div>
+</section>
+
+<section style="background: #EEF3EC;">
+<div style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) clamp(20px, 4vw, 48px); display: flex; flex-direction: column; gap: 40px; box-sizing: border-box;">
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center;">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; letter-spacing: -1px; color: var(--primary);">O que dizem os pacientes</h2>
+<p style="margin: 0; font-size: 14px; color: #4F5D55;">Depoimentos ilustrativos deste site modelo.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<figure style="margin: 0; flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="#E8875B" aria-hidden="true"><path d="M7 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H7z"></path><path d="M14 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H14z"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.65;">Pela primeira vez segui um plano por mais de um mês. Não me senti de dieta, só comendo melhor.</blockquote>
+<figcaption style="font-size: 15px; font-weight: 600; color: var(--primary);">Carla, acompanhamento mensal</figcaption>
+</figure>
+<figure style="margin: 0; flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="#E8875B" aria-hidden="true"><path d="M7 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H7z"></path><path d="M14 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H14z"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.65;">As receitas são práticas de verdade. Até meu marido entrou no cardápio junto comigo.</blockquote>
+<figcaption style="font-size: 15px; font-weight: 600; color: var(--primary);">Patrícia, consulta online</figcaption>
+</figure>
+<figure style="margin: 0; flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="#E8875B" aria-hidden="true"><path d="M7 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H7z"></path><path d="M14 7h4v4c0 3-1.5 5-4 6l-1-1.5c1.5-.8 2.3-2 2.4-3.5H14z"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.65;">Treino há anos e nunca tinha ajustado a alimentação pro meu objetivo. A diferença no rendimento foi enorme.</blockquote>
+<figcaption style="font-size: 15px; font-weight: 600; color: var(--primary);">Bruno, nutrição esportiva</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<section id="duvidas" style="max-width: 880px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) clamp(20px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px; box-sizing: border-box;">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; letter-spacing: -1px; text-align: center; color: var(--primary);">Dúvidas frequentes</h2>
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<details style="background: #FFFFFF; border-radius: 20px; padding: 0 28px;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 72px; font-size: 18px; font-weight: 600;">Preciso levar exames na primeira consulta?<svg class="faq-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m6 9 6 6 6-6"></path></svg></summary>
+<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.7; color: #4F5D55;">Se tiver exames recentes, traga. Se não tiver, não tem problema: avalio a necessidade e solicito o que for importante.</p>
+</details>
+<details style="background: #FFFFFF; border-radius: 20px; padding: 0 28px;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 72px; font-size: 18px; font-weight: 600;">A consulta online funciona igual à presencial?<svg class="faq-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m6 9 6 6 6-6"></path></svg></summary>
+<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.7; color: #4F5D55;">Sim. A conversa, a análise e o plano são os mesmos. As medidas são feitas por você com orientação durante a chamada.</p>
+</details>
+<details style="background: #FFFFFF; border-radius: 20px; padding: 0 28px;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 72px; font-size: 18px; font-weight: 600;">Vou ter que cortar tudo o que eu gosto?<svg class="faq-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m6 9 6 6 6-6"></path></svg></summary>
+<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.7; color: #4F5D55;">Não. O plano é montado a partir dos alimentos que você já come e gosta, com ajustes de quantidade, combinação e frequência.</p>
+</details>
+<details style="background: #FFFFFF; border-radius: 20px; padding: 0 28px;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 72px; font-size: 18px; font-weight: 600;">Atende por plano de saúde?<svg class="faq-chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E4636" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m6 9 6 6 6-6"></path></svg></summary>
+<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.7; color: #4F5D55;">O atendimento é particular, com emissão de recibo para você solicitar reembolso ao seu plano, quando ele oferecer.</p>
+</details>
+</div>
+</section>
+
+<section id="contato" style="padding: 0 clamp(20px, 4vw, 48px) clamp(64px, 8vw, 104px);">
+<div style="max-width: 1240px; margin: 0 auto; background: var(--accent); color: #1A2B22; border-radius: 40px; padding: clamp(40px, 6vw, 80px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px; box-sizing: border-box;">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 14px;">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(36px, 4.8vw, 60px); line-height: 1.08; letter-spacing: -1px;">Vamos conversar sobre a sua alimentação?</h2>
+<p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 1.6;">Me chama no WhatsApp pra tirar dúvidas e escolher o melhor horário pra sua consulta.</p>
+</div>
+<a href="https://wa.me/" style="display: inline-flex; align-items: center; gap: 12px; min-height: 60px; box-sizing: border-box; padding: 18px 32px; border-radius: 999px; background: var(--primary); color: #FFFFFF; font-weight: 600; font-size: 18px; text-decoration: none;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"></path></svg>Agendar pelo WhatsApp</a>
+</div>
+</section>
+
+<footer style="border-top: 1px solid #DDE6DF;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 40px clamp(20px, 4vw, 48px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; box-sizing: border-box; font-size: 14px; color: #4F5D55;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600; color: var(--primary);">Helena Costa Nutricionista</span>
+<span>Endereço do consultório, Salvador, BA  ·  @seuperfil  ·  (71) 9XXXX-XXXX</span>
+</div>
+<span>Site modelo desenvolvido por Darlan Hora</span>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
